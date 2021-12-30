@@ -179,13 +179,8 @@
       </a-layout-content>
       <a-layout-footer :style="{ textAlign: 'center' }">
         <a-space :size="14">
-        <a href="#">官网</a>
-          <a href="https://github.com/dnsjia/luban">
-            <GithubOutlined/>
-          </a>
-        <a href="#">文档</a>
         </a-space><br/>
-        Copyright ©2020 By LuBan Ops.
+        Copyright ©2022 By hoonli Ops.
       </a-layout-footer>
 
 
@@ -198,8 +193,7 @@ import {
   // VideoCameraOutlined,
   LogoutOutlined,
   UserOutlined,
-  createFromIconfontCN,
-  GithubOutlined,
+  createFromIconfontCN
 } from '@ant-design/icons-vue';
 import {defineComponent, ref} from 'vue';
 import router from "./router";
@@ -229,8 +223,7 @@ export default defineComponent({
   components: {
     IconFont,
     LogoutOutlined,
-    UserOutlined,
-    GithubOutlined,
+    UserOutlined
   },
 });
 </script>
